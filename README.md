@@ -56,4 +56,5 @@ docker run -it --rm -v "${PWD}:/app" veridion-env python source/05_hmrc_validato
 <img width="1779" height="919" alt="image" src="https://github.com/user-attachments/assets/a9ec9571-e863-4fc3-95a2-4821415a190c" />
 
 Methodology & Debate Topics
-For a comprehensive breakdown of the domain discovery limits, anti-bot observations, validation strategy, and answers to the Debate Topics, please refer to the attached document: Ceausu Eugen-Stefan VAT Identifier Discovery assessment_solve.docx.
+For a comprehensive breakdown of the domain discovery limits, anti-bot observations, validation strategy, and answers to the Debate Topics, please refer to the attached document:
+Ceausu_Eugen- Stefan_VAT_Identifier_Discovery_FINAL.pdf
