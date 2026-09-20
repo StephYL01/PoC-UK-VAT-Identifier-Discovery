@@ -16,6 +16,10 @@ source/: Contains the Python scripts for discovery, scraping, and HMRC validatio
 
 data/: Contains the .csv data samples.
 
+**Data Flow (The 3 CSV Iterations):**
+*   `sample_500_active_companies.csv`: The initial cleaned data sample extracted from the 2GB raw bulk file.
+*   `sample_with_domains.csv`: The dataset produced after running the domain discovery module, which also incorporates the two manually injected test cases for scraper validation.
+*   `sample_with_extracted_vat.csv`: The final output containing the newly populated column with the VAT numbers extracted via Regex.
 Dockerfile & requirements.txt: Docker environment configuration.
 
 Note on Data & Version Control
